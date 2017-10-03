@@ -1,0 +1,61 @@
+class Customer
+{
+  String custName;
+  String phone;
+  String card;
+  String address;
+
+private String name(){
+
+}
+private String address(){
+
+}
+private String phoneNum(){
+
+}
+private String creditCard(){
+
+}
+}
+
+class Account
+{
+ Float balance;
+ String date;
+ Integer notifications;
+   1 -- 1 Customer;
+  1 -- * Order;
+private String accountBalance(){
+
+}
+private String creationDate(){
+
+}
+private String lastAccessed(){
+
+}
+private String printNotifications(){
+
+}
+}
+
+class Order
+{
+  Integer orderNumber;
+  Integer customerNum;
+
+
+private String getCreationDate(){
+
+}
+private String printShipDate(){
+
+}
+private String estimatedDelivery(){
+
+}
+private String lastOrderNum(){
+
+}
+}
